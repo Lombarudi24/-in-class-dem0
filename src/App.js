@@ -9,7 +9,7 @@ console.log(process.env)
       Simple react
       <div>Current Env: {process.env.NODE_ENV}</div>
       <div>Current API {process.env.NODE_ENV === "development"
-        ? process.env REACT_APP_DEVELOPMENT_API_KEY 
+        ? process.env.REACT_APP_DEVELOPMENT_API_KEY 
         : process.env.REACT_APP_DEVELOPMENT_API_KEY}</div>
     </div>
   );
